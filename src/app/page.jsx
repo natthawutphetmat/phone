@@ -102,11 +102,18 @@ export default function Page() {
 {/* --------------------------------------------------------------------------------- */}
 
 
+
+
+
+
+
+
+
  
 <header id='header'>
     <button onClick={Clickitem} className='Clickitem'>
         <div className="item">
-            {imgs.map((item) => (
+            {imgs.map((item) => ( 
                 <div key={item}>
                     <img src={`${weburl}/img/img/${item}`} alt={item} />
                 </div>
@@ -114,6 +121,12 @@ export default function Page() {
         </div>
     </button>
 </header>
+
+
+
+
+
+
 
 
  
